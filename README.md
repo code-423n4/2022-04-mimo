@@ -2,7 +2,7 @@
 - $47,500 USDC main award pot
 - $2,500 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2022-04-mimo-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2022-04-mimo-defi-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts April 28, 2022 00:00 UTC
 - Ends May 2, 2022 23:59 UTC
