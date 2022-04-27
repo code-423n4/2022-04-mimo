@@ -13,11 +13,9 @@ This repo will be made public before the start of the contest. (C4 delete this l
 
 ## Introduction
 
-[Mimo DeFi](https://mimo.capital/) is home to the Parallel Protocol.
+The [Mimo protocol](https://mimo.capital/) is a decentralized stablecoin issuance protocol on the Ethereum, Polygon and Fantom blockchain. Parallel stablecoins are decentralized, non-custodial, collateral-backed, and fully redeemable synthetic assets pegged to a fiat currency.
 
-The Parallel Protocol is a decentralized stablecoin issuance protocol on the Ethereum, Polygon and Fantom blockchain. Parallel stablecoins are decentralized, non-custodial, collateral-backed, and fully redeemable synthetic assets pegged to a fiat currency.
-
-At launch, the Parallel Protocol offers a single ERC20 stablecoin called PAR which is pegged to the Euro.
+At launch, the Mimo Protocol offers a single ERC20 stablecoin called PAR which is pegged to the Euro.
 
 The protocol was launched in December 2020 and has been audited by Quantstamp and CertiK (see [core/audits](core/audits)).
 
@@ -29,7 +27,7 @@ The already live core protocol is out of scope for this contest. See [Files in S
 
 ### Inception Vaults
 
-Inception Vaults enable using any ERC20 as collateral by adding a lending & borrowing layer on top of the Parallel protocol vaults. This enables owners to generate yield with their minted PAR and users to leverage their ERC20 to borrow PAR.
+Inception Vaults enable using any ERC20 as collateral by adding a lending & borrowing layer on top of the Mimo protocol vaults. This enables owners to generate yield with their minted PAR and users to leverage their ERC20 to borrow PAR.
 
 See the documentation [here](core/docs/inception-vault/README.md).
 
@@ -61,7 +59,7 @@ To only run the tests for LP Token Oracles please run `yarn hardhat test test/or
 
 A new, completely standalone feature built on top of our core protocol, Aave and Paraswap/1Inch.
 
-SuperVaults expand the capabilities of the Parallel Protocol to integrate with DeFi aggregators and lending protocols to do things like:
+SuperVaults expand the capabilities of the Mimo Protocol to integrate with DeFi aggregators and lending protocols to do things like:
 
 - Enter leveraged positions on collateral
 - Rebalance vaults to use different collaterals
