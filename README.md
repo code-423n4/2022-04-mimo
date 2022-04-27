@@ -17,7 +17,7 @@ The [Mimo protocol](https://mimo.capital/) is a decentralized stablecoin issuanc
 
 At launch, the Mimo Protocol offers a single ERC20 stablecoin called PAR which is pegged to the Euro.
 
-The protocol was launched in December 2020 and has been audited by Quantstamp and CertiK (see [core/audits](core/audits)).
+The protocol was launched in December 2020 and has been audited by Quantstamp and CertiK (see [core/audits](https://github.com/code-423n4/2022-04-mimo/tree/main/core/audits)).
 
 ## Contest Scope
 
@@ -39,9 +39,9 @@ To only run the tests for Inception Vaults please run `yarn hardhat test test/in
 
 The next version of reward contracts for the users of the protocol. In the first iteration of liquidity mining contracts, users earned MIMO tokens on their debt and staked LP and PAR tokens. Version 2 of these contracts brings users PAR rewards and an APY boost. Additionally, PARMinerV2 can use its funds to liquidate protocol vaults through the liquidation feature.
 
-See further documentation [here](core/docs/liquidity-mining/v2/README.md).
+See further documentation [here](https://github.com/code-423n4/2022-04-mimo/tree/main/core/docs/liquidity-mining/v2/README.md).
 
-Contracts can be found in the [core/contracts/liquidityMining/v2](core/contracts/liquidityMining/v2) folder.
+Contracts can be found in the [core/contracts/liquidityMining/v2](https://github.com/code-423n4/2022-04-mimo/tree/main/core/contracts/liquidityMining/v2) folder.
 
 To only run the tests for Liquidity Mining V2 please run `yarn hardhat test test/liquidityMining/v2/*.test.ts` in the `core/` folder.
 
@@ -51,7 +51,7 @@ The BalancerV2 and a G-UNI LP token oracle adds support for using LP tokens as s
 
 The pricing of the LP token is based on [Alpha Finance's fair LP token pricing](https://blog.alphafinance.io/fair-lp-token-pricing/).
 
-Contracts can be found in the [core/contracts/oracles](core/contracts/oracles) folder.
+Contracts can be found in the [core/contracts/oracles](https://github.com/code-423n4/2022-04-mimo/tree/main/core/contracts/oracles) folder.
 
 To only run the tests for LP Token Oracles please run `yarn hardhat test test/oracles/*.test.ts` in the `core/` folder.
 
@@ -65,9 +65,9 @@ SuperVaults expand the capabilities of the Mimo Protocol to integrate with DeFi 
 - Rebalance vaults to use different collaterals
 - Pay off debt from vaults without any additional required capital
 
-Technical and User documentation is [here](supervaults/docs), and general documentation is [here](supervaults/).
+Technical and User documentation is [here](https://github.com/code-423n4/2022-04-mimo/tree/main/supervaults/docs), and general documentation is [here](https://github.com/code-423n4/2022-04-mimo/tree/main/supervaults/).
 
-Contracts can be found in the [supervaults/contracts](supervaults/contracts) folder.
+Contracts can be found in the [supervaults/contracts](https://github.com/code-423n4/2022-04-mimo/tree/main/supervaults/contracts) folder.
 
 ## Files in Scope
 
