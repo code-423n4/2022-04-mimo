@@ -29,7 +29,7 @@ The already live core protocol is out of scope for this contest. See [Files in S
 
 Inception Vaults enable using any ERC20 as collateral by adding a lending & borrowing layer on top of the Mimo protocol vaults. This enables owners to generate yield with their minted PAR and users to leverage their ERC20 to borrow PAR.
 
-See the documentation [here](core/docs/inception-vault/README.md).
+See the documentation [here](https://github.com/code-423n4/2022-04-mimo/tree/main/core/docs/inception-vault/README.md).
 
 Contracts can be found in the [core/contracts/inception](https://github.com/code-423n4/2022-04-mimo/tree/main/core/contracts/inception) folder.
 
