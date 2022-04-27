@@ -31,7 +31,7 @@ Inception Vaults enable using any ERC20 as collateral by adding a lending & borr
 
 See the documentation [here](core/docs/inception-vault/README.md).
 
-Contracts can be found in the [core/contracts/inception](https://github.com/code-423n4/core/contracts/inception) folder.
+Contracts can be found in the [core/contracts/inception](core/contracts/inception) folder.
 
 To only run the tests for Inception Vaults please run `yarn hardhat test test/inceptionVault/*.test.ts` in the `core/` folder.
 
